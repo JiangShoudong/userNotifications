@@ -13,6 +13,7 @@
 		4CA0F893200DF3FB00B12199 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CA0F892200DF3FB00B12199 /* Assets.xcassets */; };
 		4CA0F896200DF3FB00B12199 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CA0F894200DF3FB00B12199 /* LaunchScreen.storyboard */; };
 		4CBD623520103D44002A2FAB /* BasicSwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBD623420103D44002A2FAB /* BasicSwiftViewController.swift */; };
+		4CC6C0FF2011CB12004CBE69 /* MBNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC6C0FE2011CB12004CBE69 /* MBNavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		4CA0F895200DF3FB00B12199 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4CA0F897200DF3FB00B12199 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CBD623420103D44002A2FAB /* BasicSwiftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicSwiftViewController.swift; sourceTree = "<group>"; };
+		4CC6C0FE2011CB12004CBE69 /* MBNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBNavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		4CA0F88A200DF3FB00B12199 /* myNotification */ = {
 			isa = PBXGroup;
 			children = (
+				4CC6C0FE2011CB12004CBE69 /* MBNavigationController.swift */,
 				4CA0F88B200DF3FB00B12199 /* AppDelegate.swift */,
 				4CA0F88D200DF3FB00B12199 /* ViewController.swift */,
 				4CBD623420103D44002A2FAB /* BasicSwiftViewController.swift */,
@@ -141,6 +144,7 @@
 			files = (
 				4CBD623520103D44002A2FAB /* BasicSwiftViewController.swift in Sources */,
 				4CA0F88E200DF3FB00B12199 /* ViewController.swift in Sources */,
+				4CC6C0FF2011CB12004CBE69 /* MBNavigationController.swift in Sources */,
 				4CA0F88C200DF3FB00B12199 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
